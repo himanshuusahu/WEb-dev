@@ -1,0 +1,28 @@
+html{
+    color: rgb(57, 212, 18);  
+    display: flex;
+                  
+    
+}
+
+/* body{
+    background-color:aquamarine;
+} */
+li{
+    
+        color:brown;
+    font-size: 20px;
+   
+}
+.c1{
+    color:chartreuse;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+#in1{
+    border-color: yellow;
+    border-width: 50px;
+
+}
+

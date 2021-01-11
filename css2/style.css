@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    /* vh-vertiacl height
+    web pages are of 100 vertical and 100 horixozontal */
+    background-color: rgb(194, 54, 194);
+}
+#div1{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(80, 218, 223),rgb(115, 115, 219),rgb(72, 214, 233));
+    margin-left:20px ;
+    margin-top: 200px;
+    animation-name:animate ;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+#div1 span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image:linear-gradient(rgb(214, 39, 39),rgb(238, 225, 45),rgb(48, 201, 17));
+
+
+
+}
+#div1 span:nth-child(1){
+    filter: blur(2px);
+}
+#div1 span:nth-child(2){
+    filter: blur(4px);
+}
+
+#div1 span:nth-child(3){
+    filter: blur(2px);
+}
+#div1 span:nth-child(4){
+    filter: blur(6px);
+}
+
+#div1:after{
+    content:'';
+    position: absolute;
+    
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius:50%;
+    background-color: rgb(194, 54, 194);
+}
+

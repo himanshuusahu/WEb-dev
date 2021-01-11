@@ -1,0 +1,13 @@
+#ipo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(236, 158, 40),rgb(223, 32, 80),rgb(61, 73, 243));
+    margin-top: 200px;
+    margin-left: 200px;
+   
+
+}
+body{
+    background-color:aqua;
+}

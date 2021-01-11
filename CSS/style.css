@@ -1,0 +1,37 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: violet;
+    margin: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+.item{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: blue;
+    border: 2px solid black;
+
+}
+.item10{
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px 330px;
+}
+.item10:hover{
+    border-radius:200px 130px 3px 100px;
+    transition: 2s;
+    width: 500px;
+
+}
+.container:hover{
+    border-radius:20px 20px 20px;
+    transition: 0.8s;
+}

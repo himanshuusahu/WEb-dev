@@ -1,0 +1,105 @@
+    body{
+        margin: 0px;
+        margin-top: 50px;
+        
+    
+          
+    }
+    header {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        line-height: 50px;
+        background-color: #eee;
+        
+    }
+    header *{
+        display: inline;
+        height: 50px;
+    }
+    header ul{
+        padding: 20px;
+    }
+    
+    header li{
+        margin-left: 20px;
+
+        
+    }
+    section{
+        height: 100vh;
+        border: 1px solid rgb(230, 17, 17);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    footer{
+        text-align: center;
+        padding: 50px;
+    }
+    #image{
+       height: fit-content;
+       border-radius: 50%;
+       width: 60%;
+       height: 60%;
+    }
+    #hero h1{
+        font-size: 3em;
+    }
+    section h2{
+        font-size: 2.5em;
+    }
+    section h3{
+        font-size: 1.5em;
+
+    }
+    header a{
+        color: black;
+        text-decoration:dashed;
+    }
+   
+  #hero{
+    
+        background-image: url(Rio.jpg);
+        background-color:black;
+        
+    }
+    .section-inner2{
+        font-size: 20px;
+        color:brown;
+    }
+    .section-inner{
+        font-size: 20px;
+        color:brown;
+
+
+    }
+    #hero {
+        background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://static3.srcdn.com/wordpress/wp-content/uploads/2018/06/cyberpunk2077.jpg');
+    }
+    
+    #about {
+        background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+    }
+    
+    #contact {
+        background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.ascentor.co.uk/wp-content/uploads/2017/08/iStock-595331596-1-e1536078159508.jpg');
+    }
+    #ul1:hover{
+        color:rgb(36, 224, 45);
+        transition: 0.2s;
+
+    }
+    .ul2:active{
+        color: rgb(255, 145, 0);
+
+        
+    }
+    
+  
+  

@@ -1,0 +1,30 @@
+div{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color:aqua;
+    transition-duration: 3s;
+
+}
+#div1{
+    transform: scale(2);
+    border:1px solid black;
+
+
+}
+
+#div2{
+    transform: rotate(45deg) translateX(90px);
+}
+#div4{
+    transform: rotateX(30deg);
+}
+#div5{
+    transform: skew(45deg);
+}
+#div6{
+    transform: skewY(45deg);
+}
+
+
+

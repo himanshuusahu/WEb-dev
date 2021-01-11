@@ -1,0 +1,6 @@
+div{
+    height: 500px;
+    width: 500px;
+    background-color: -moz-linear-gradient(gree,blue);
+    margin: 10px;
+}
